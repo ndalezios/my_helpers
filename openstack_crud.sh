@@ -1,0 +1,40 @@
+#!/bin/bash
+
+openstack group list
+
+#create a new group
+openstack group create --description "a testing group" --domain default a_test_group
+#update the group
+openstack group set --description "updating the testing group" --domain default a_test_group
+#update - add user "demo" to "a_test_group"
+openstack group add user a_test_group demo
+#update - remove user "demo" from "a_test_group"
+openstack group remove user a_test_group demo
+#delete group
+openstack group delete a_test_group
+
+openstack group list
+
+openstack role list
+
+#create a new role
+openstack role create just_a_role
+#update - add just_a_role to user demo
+openstack role add --domain default --user demo just_a_role
+#update - remove just_a_role from user demo
+openstack role  remove --domain default --user demo just_a_role
+#delete
+openstack role delete just_a_role
+
+openstack role list
+
+openstack user list
+
+#create a new user
+openstack user create --domain default --password pass --email ndalezios@gmail.com --description "a test user" ndalezios
+#update - disable user ndalezios
+openstack user set --disable ndalezios
+#delete
+openstack user delete ndalezios
+
+openstack user list
