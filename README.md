@@ -2,6 +2,8 @@
 A few devstack helpers and utilities
 # 0_user_add.sh
 Creates user stack, adds stack to sudoers and changes to user stack
+# 50_configure_rabbitmq.sh
+Enables rabbitmq_management, restarts server, set password for user stackrabbit to "guest" and sets tag "administrator"
 # 100_remove_devstack
 Executes unstack.sh and clean.sh, deletes /opt/stacl/devstack and /usr/local/bin files and clears python2.7 and ruby temp packages
 # local.conf
