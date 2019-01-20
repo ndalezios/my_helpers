@@ -11,6 +11,9 @@ Copy this file to devstack git folder. Devstack uses it during installation
 # keystone.conf
 Copy this file to /etc/keystone
 Made a few changes in order to produce CADF events
-# openstack_crud.sh
-Execute after ". openrc admin admin". It performs basic CRUD operations and produces CADF event (view syslog)
+# create_events.sh
+Execute after ". openrc admin admin". It performs basic List and CRUD operations for
+* Keystone project
+* Nova project
+and produces CADF event (view syslog)
 
