@@ -15,5 +15,6 @@ Made a few changes in order to produce CADF events
 Execute after ". openrc admin admin". It performs basic List and CRUD operations for
 * Keystone project
 * Nova project
+
 and produces CADF event (view syslog)
 
