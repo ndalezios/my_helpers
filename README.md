@@ -15,7 +15,7 @@ Made a few changes in order to produce CADF events
 Execute after ". openrc admin admin". It performs basic List and CRUD operations for
 * Keystone project
   * group list
-	 * role list
+  * role list
   * user list
   * create a new group
   * update the created group
