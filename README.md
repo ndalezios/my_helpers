@@ -14,7 +14,14 @@ Made a few changes in order to produce CADF events
 # create_events.sh
 Execute after ". openrc admin admin". It performs basic List and CRUD operations for
 * Keystone project
-  * mpla mpla
+  * group list
+	 * role list
+  * user list
+  * create a new group
+  * update the created group
+  * add user "demo" to group
+  * remove user "demo" from group
+  * delete group
 * Nova project
 
 and produces CADF event (view syslog)
