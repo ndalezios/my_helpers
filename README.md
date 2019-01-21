@@ -14,7 +14,7 @@ Made a few changes in order to produce CADF events
 # create_events.sh
 Execute after ". openrc admin admin". It performs basic List and CRUD operations for
 * Keystone project
-** mpla mpla
+ * mpla mpla
 * Nova project
 
 and produces CADF event (view syslog)
