@@ -34,7 +34,10 @@ Execute after ". openrc admin admin". It performs basic List and CRUD operations
   * flavor list
   * network list
   * security group list
-
+  * create a new virtual machine named "a_new_instance"
+  * update virtual machine "a_new_instance" by adding a description field
+  * delete virtual machine a_new_instance
+  * list servers to show that "a_new_instance" was deleted
 
 and produces CADF event (view syslog)
 
