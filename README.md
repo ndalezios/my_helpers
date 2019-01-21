@@ -22,7 +22,15 @@ Execute after ". openrc admin admin". It performs basic List and CRUD operations
   * add user "demo" to group
   * remove user "demo" from group
   * delete group
+  * create a new role
+  * add role to user "demo"
+  * remove role from user "demo"
+  * delete role
+  * create a new user
+  * disable user
+  * delete user
 * Nova project
+
 
 and produces CADF event (view syslog)
 
