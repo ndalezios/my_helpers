@@ -30,6 +30,10 @@ Execute after ". openrc admin admin". It performs basic List and CRUD operations
   * disable user
   * delete user
 * Nova project
+  * image list
+  * flavor list
+  * network list
+  * security group list
 
 
 and produces CADF event (view syslog)
