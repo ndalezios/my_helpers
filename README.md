@@ -41,5 +41,5 @@ Execute after ". openrc admin admin". It performs basic List and CRUD operations
 
 and produces CADF event (view syslog)
 
-##raw_cadf_sample
-A collection of CADF event records from syslog
+## raw_cadf_sample
+A collection of CADF event records from syslog. Event records were created by create_events.sh and filtered out to this file 
