@@ -1,5 +1,5 @@
-# my_helpers
-A few devstack helpers and utilities
+# os_helpers
+A few OpenStack devstack helpers and utilities
 ## 0_user_add.sh
 Creates user stack, adds stack to sudoers and changes to user stack
 ## 50_configure_rabbitmq.sh
